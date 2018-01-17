@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         pref = new PrefManager(getApplicationContext());
 
-
+//...................................
         // Checking if user session
         // if not logged in, take user to sms screen
         if (!pref.isLoggedIn()) {
